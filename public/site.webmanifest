@@ -1,0 +1,20 @@
+{
+  "name": "Anime Dungeons Wiki",
+  "short_name": "Anime Dungeons",
+  "description": "Anime Dungeons codes and guides for classes, dungeons, weapons, armor, spells, heroes, and early progression.",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#46D7FF",
+  "background_color": "#070812",
+  "display": "standalone"
+}
