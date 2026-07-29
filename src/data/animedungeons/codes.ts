@@ -1,33 +1,60 @@
-import { allThingsCodesSource } from './sources';
+import { allThingsCodesSource, mrGuiderCodesSource } from './sources';
 import type { GameCode } from './types';
 
 export const activeCodes: GameCode[] = [];
 
 export const reportedCodes: GameCode[] = [
   {
+    code: '300KVISITS',
+    reward: 'Reported as 500 Gems, 10 Trait Rerolls, and 10 Stat Rerolls.',
+    status: 'reported',
+    lastChecked: '2026-07-29',
+    sources: [mrGuiderCodesSource],
+    notes:
+      'A current July tracker lists this milestone code. Copy the code exactly and use the live reward popup as final.',
+  },
+  {
+    code: 'ALLAGES',
+    reward: 'Reported as 2,000 Gems, 25 Trait Rerolls, and 25 Stat Rerolls.',
+    status: 'reported',
+    lastChecked: '2026-07-29',
+    sources: [mrGuiderCodesSource],
+    notes:
+      'A current July tracker lists this code. Redeem on the current 1B Studio Place before planning rerolls.',
+  },
+  {
+    code: 'THANKYOU',
+    reward: 'Reported as 1,000 Gems and 20 Trait Rerolls.',
+    status: 'reported',
+    lastChecked: '2026-07-29',
+    sources: [mrGuiderCodesSource],
+    notes:
+      'A current July tracker lists this code. The in-game popup is the final reward check.',
+  },
+  {
     code: 'EARLYACCESS',
     reward: 'Reported as 15 rerolls and 1,500 gems.',
-    status: 'needs_check',
-    lastChecked: '2026-07-24',
-    sources: [allThingsCodesSource],
+    status: 'reported',
+    lastChecked: '2026-07-29',
+    sources: [allThingsCodesSource, mrGuiderCodesSource],
     notes:
-      'A fresh guide tracker reports this code, but the current Roblox description does not name it and the tracker links to the unavailable old Place. Verify in the current 1B Studio experience before relying on the reward.',
+      'Two guide trackers now report this code. Use only the current 1B Studio experience because one older source still points to the unavailable old Place.',
   },
   {
     code: 'RELEASE',
-    reward: 'Reward is not reliably verified.',
-    status: 'needs_check',
-    lastChecked: '2026-07-24',
-    sources: [],
+    reward: 'Reported as 1,000 Gems and 10 Trait Rerolls.',
+    status: 'reported',
+    lastChecked: '2026-07-29',
+    sources: [mrGuiderCodesSource],
     notes:
-      'Low-confidence videos and community posts report this launch code. No current official source used for this build confirms the code or reward.',
+      'A current tracker now supplies reward wording, while recent beginner videos independently show the launch-code redeem flow. The live popup remains final.',
   },
 ];
 
 export const codeStatusSummary = {
-  checkedAt: '2026-07-24',
+  checkedAt: '2026-07-29',
   officialActiveCount: activeCodes.length,
   reportedCount: reportedCodes.length,
   message:
-    'No active code was confirmed by a current official 1B Studio surface during this check. Two fresh community reports are listed separately for in-game verification.',
+    'Five current codes are reported by July guide trackers. They remain source-reported rather than official because the Roblox description does not publish a code list.',
 };

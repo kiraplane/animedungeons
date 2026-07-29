@@ -1,6 +1,6 @@
 import type { DataSource, VideoSource } from './types';
 
-export const checkedAt = '2026-07-24';
+export const checkedAt = '2026-07-29';
 
 export const officialGameFacts = {
   name: 'Anime Dungeons',
@@ -27,8 +27,10 @@ export const officialGameFacts = {
   featuredVideoId: 'MN97_9QhIfQ',
 } as const;
 
-export const videos: Record<'releaseTrailer' | 'currentGameplay', VideoSource> =
-  {
+export const videos: Record<
+  'releaseTrailer' | 'currentGameplay' | 'levelFiveProgression',
+  VideoSource
+> = {
     releaseTrailer: {
       id: 'MN97_9QhIfQ',
       title: 'Anime Dungeons | RELEASE TRAILER',
@@ -47,6 +49,16 @@ export const videos: Record<'releaseTrailer' | 'currentGameplay', VideoSource> =
       thumbnailUrl: 'https://i.ytimg.com/vi/BM2w11Wx2Kk/hqdefault.jpg',
       publishedAt: '2026-07-21',
       viewCountLabel: '5K+ views at check',
+      checkedAt,
+    },
+    levelFiveProgression: {
+      id: '3kcQINrkMXk',
+      title: 'Anime Dungeons Complete Beginner Guide (Noob to Godly)',
+      channel: 'Hatter',
+      url: 'https://www.youtube.com/watch?v=3kcQINrkMXk',
+      thumbnailUrl: 'https://i.ytimg.com/vi/3kcQINrkMXk/hqdefault.jpg',
+      publishedAt: '2026-07-25',
+      viewCountLabel: '1.3K+ views at check',
       checkedAt,
     },
   };
@@ -105,6 +117,15 @@ export const allThingsCodesSource: DataSource = {
   note: 'Reports EARLYACCESS, but its Play link points to the unavailable old Place.',
 };
 
+export const mrGuiderCodesSource: DataSource = {
+  type: 'guide_site',
+  label: 'MrGuider Anime Dungeons code tracker',
+  url: 'https://www.mrguider.org/codes/anime-dungeons-codes/',
+  checkedAt,
+  confidence: 'medium',
+  note: 'Current July code list and reward wording for RELEASE, EARLYACCESS, THANKYOU, ALLAGES, and 300KVISITS.',
+};
+
 export const currentGameplaySource: DataSource = {
   type: 'youtube',
   label: 'Current release gameplay',
@@ -122,4 +143,5 @@ export const sourceCatalog = [
   currentGameplaySource,
   bloxInformerSource,
   allThingsCodesSource,
+  mrGuiderCodesSource,
 ] satisfies DataSource[];

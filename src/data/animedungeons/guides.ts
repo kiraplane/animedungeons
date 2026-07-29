@@ -473,6 +473,94 @@ export const guides: Guide[] = [
       '/guides/loot-upgrade-checklist',
     ],
   },
+  {
+    slug: 'level-5-progression-route',
+    title: 'Anime Dungeons Level 5 Progression Route',
+    seoTitle: 'Anime Dungeons Level 5 Guide - Fast Beginner Progression',
+    seoDescription:
+      'Reach level 5 in Anime Dungeons with a clean Demon Train route, class-matched gear, index rewards, safe traits, and the right next difficulty.',
+    summary:
+      'Build one four-hero team, farm the easiest repeatable Demon Train route, claim index rewards, and save expensive trait rolls until the account has a proven unit.',
+    category: 'Start Here',
+    sourceStrategy: 'popular_youtube',
+    videoSearchQueries: [
+      'Anime Dungeons level 5 guide',
+      'Anime Dungeons beginner progression route',
+      'Anime Dungeons Demon Train medium unlock',
+    ],
+    sourceNotes:
+      'A July 25 current-release walkthrough supplies the level-5 route, controls, team setup, index rewards, and spending cautions. Exact rewards and unlock labels should still be checked in the live beta client.',
+    coverImageUrl: videos.levelFiveProgression.thumbnailUrl,
+    video: videos.levelFiveProgression,
+    tags: ['Level 5', 'Demon Train', 'Progression'],
+    difficulty: 'Beginner',
+    body: [
+      {
+        heading: 'Set one class and one four-hero team first',
+        paragraphs: [
+          'Choose Warrior, Mage, or Assassin by the combat range you can control, then keep that class long enough to learn its dodge and damage windows. The current class effects do not stack, so switching every run creates more variables without improving the route.',
+          'Use the first summons to fill all four hero slots. Upgrade the heroes that actually enter the dungeon, and stop at the current player-level cap instead of spending across every new pull. A complete, level-matched team clears early rooms more reliably than one overbuilt unit surrounded by empty slots.',
+        ],
+      },
+      {
+        heading: 'Farm the easiest Demon Train route to level 5',
+        paragraphs: [
+          'Start with the lowest Demon Train difficulty that the account can repeat without a carry. Current gameplay shows a ten-minute dungeon window and a level-5 gate for the next early difficulty, but beta labels can move, so confirm both values in the live portal.',
+          'Use Q to dodge the attack that would interrupt the longest damage window. During the boss, move first and attack second until the telegraph pattern is readable. The goal is repeatable experience and drops, not one lucky clear that consumes every heal.',
+        ],
+        bullets: [
+          'Keep a healing spell when running solo.',
+          'Match weapons, armor, and spells to the active class stats.',
+          'Repeat the same difficulty until the boss route survives normal mistakes.',
+        ],
+      },
+      {
+        heading: 'Claim free progression before buying more rolls',
+        paragraphs: [
+          'Check daily rewards, achievements, and each available Index tab after the first clears. Hero, weapon, armor, and spell discoveries can return Gems or other account resources, turning ordinary dungeon drops into part of the summon budget.',
+          'Redeem current source-reported codes before calculating the next spend. The live reward popup is final, but delaying redemption can make the account look poorer than it is and lead to unnecessary grinding.',
+        ],
+      },
+      {
+        heading: 'Reset mistakes with gold, not rare trait resources',
+        paragraphs: [
+          'If the class stats were assigned in the wrong direction, use the live stat-reset option and its displayed gold cost before replacing the entire build. A correct class-stat match usually matters more at this stage than chasing a perfect trait.',
+          'Save Trait Crystals and other scarce reroll resources until a Mythic or otherwise proven long-term hero appears. Early heroes are useful for reaching level 5, but spending the rarest currency on the first pull can delay the account once better units arrive.',
+        ],
+      },
+      {
+        heading: 'Move up only when the route is stable',
+        paragraphs: [
+          'At level 5, test the newly available difficulty with the same team and loadout. If normal rooms consume the heal before the boss, return to the easier route for class-matched equipment and hero levels. If survival is stable but the timer is the wall, improve damage or spell uptime.',
+          'Keep the easier route available as a fallback. Progress is faster when each run has a clear purpose: experience, a specific equipment slot, Index completion, or a test of the next dungeon gate.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'How do I reach level 5 in Anime Dungeons?',
+        answer:
+          'Build a full four-hero team and repeat the easiest Demon Train difficulty you can clear consistently, claiming daily, achievement, and Index rewards between runs.',
+      },
+      {
+        question: 'What unlocks at level 5?',
+        answer:
+          'Current release gameplay shows the next early Demon Train difficulty opening at level 5. Check the live beta portal because requirements can change.',
+      },
+      {
+        question: 'Should I roll traits before level 5?',
+        answer:
+          'Usually no. Save scarce trait resources for a proven long-term hero and use early runs to improve class-matched gear, hero levels, and execution.',
+      },
+    ],
+    relatedRoutes: [
+      '/guides/beginner-guide',
+      '/guides/first-dungeon-route',
+      '/codes',
+      '/classes',
+      '/weapons-and-armor',
+    ],
+  },
 ];
 
 export function getGuide(slug: string) {
