@@ -8,7 +8,7 @@ export const reportedCodes: GameCode[] = [
     code: '300KVISITS',
     reward: 'Reported as 500 Gems, 10 Trait Rerolls, and 10 Stat Rerolls.',
     status: 'reported',
-    lastChecked: '2026-07-29',
+    lastChecked: '2026-07-31',
     sources: [mrGuiderCodesSource],
     notes:
       'A current July tracker lists this milestone code. Copy the code exactly and use the live reward popup as final.',
@@ -17,7 +17,7 @@ export const reportedCodes: GameCode[] = [
     code: 'ALLAGES',
     reward: 'Reported as 2,000 Gems, 25 Trait Rerolls, and 25 Stat Rerolls.',
     status: 'reported',
-    lastChecked: '2026-07-29',
+    lastChecked: '2026-07-31',
     sources: [mrGuiderCodesSource],
     notes:
       'A current July tracker lists this code. Redeem on the current 1B Studio Place before planning rerolls.',
@@ -26,7 +26,7 @@ export const reportedCodes: GameCode[] = [
     code: 'THANKYOU',
     reward: 'Reported as 1,000 Gems and 20 Trait Rerolls.',
     status: 'reported',
-    lastChecked: '2026-07-29',
+    lastChecked: '2026-07-31',
     sources: [mrGuiderCodesSource],
     notes:
       'A current July tracker lists this code. The in-game popup is the final reward check.',
@@ -35,7 +35,7 @@ export const reportedCodes: GameCode[] = [
     code: 'EARLYACCESS',
     reward: 'Reported as 15 rerolls and 1,500 gems.',
     status: 'reported',
-    lastChecked: '2026-07-29',
+    lastChecked: '2026-07-31',
     sources: [allThingsCodesSource, mrGuiderCodesSource],
     notes:
       'Two guide trackers now report this code. Use only the current 1B Studio experience because one older source still points to the unavailable old Place.',
@@ -44,7 +44,7 @@ export const reportedCodes: GameCode[] = [
     code: 'RELEASE',
     reward: 'Reported as 1,000 Gems and 10 Trait Rerolls.',
     status: 'reported',
-    lastChecked: '2026-07-29',
+    lastChecked: '2026-07-31',
     sources: [mrGuiderCodesSource],
     notes:
       'A current tracker now supplies reward wording, while recent beginner videos independently show the launch-code redeem flow. The live popup remains final.',
@@ -52,7 +52,7 @@ export const reportedCodes: GameCode[] = [
 ];
 
 export const codeStatusSummary = {
-  checkedAt: '2026-07-29',
+  checkedAt: '2026-07-31',
   officialActiveCount: activeCodes.length,
   reportedCount: reportedCodes.length,
   message:
