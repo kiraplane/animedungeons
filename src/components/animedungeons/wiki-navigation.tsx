@@ -35,6 +35,7 @@ export const wikiNavGroups: WikiNavGroup[] = [
       { href: '/codes', label: 'Codes Status' },
       { href: '/guides', label: 'All Guides' },
       { href: '/guides/beginner-guide', label: 'Beginner Guide' },
+      { href: '/discord', label: 'Discord' },
       { href: '/official-links', label: 'Official Links' },
     ],
   },
@@ -87,6 +88,7 @@ const iconMap = {
   '/guides/solo-vs-party': Users,
   '/guides/loot-upgrade-checklist': Gem,
   '/official-links': ShieldCheck,
+  '/discord': Users,
   '/updates': RefreshCw,
 };
 

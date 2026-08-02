@@ -11,6 +11,7 @@ const coreRoutes = [
   '/weapons-and-armor',
   '/spells',
   '/guides',
+  '/discord',
   '/updates',
   '/official-links',
   '/privacy',
@@ -24,7 +25,7 @@ const routes = [
   ...guides.map((guide) => `/guides/${guide.slug}`),
 ];
 
-const lastModified = new Date('2026-07-31T00:00:00.000Z');
+const lastModified = new Date('2026-08-01T00:00:00.000Z');
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = getCanonicalBaseUrl();

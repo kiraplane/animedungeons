@@ -13,6 +13,7 @@ export const routeLabels: Record<string, string> = {
   '/guides/loot-upgrade-checklist': 'Loot Upgrade Checklist',
   '/guides/solo-vs-party': 'Solo vs Party',
   '/official-links': 'Official Links',
+  '/discord': 'Discord',
   '/updates': 'Release & Updates',
   '/disclaimer': 'Disclaimer',
   '/privacy': 'Privacy',

@@ -1,6 +1,6 @@
 import type { DataSource, VideoSource } from './types';
 
-export const checkedAt = '2026-07-31';
+export const checkedAt = '2026-08-01';
 
 export const officialGameFacts = {
   name: 'Anime Dungeons',
@@ -16,7 +16,7 @@ export const officialGameFacts = {
   oldPlaceId: 8862620807,
   oldUniverseId: 3353228800,
   createdAt: '2025-09-15',
-  updatedAt: '2026-07-23',
+  updatedAt: '2026-08-01',
   checkedAt,
   genre: ['RPG', 'Action RPG', 'Dungeon Crawler', 'Anime'],
   description:

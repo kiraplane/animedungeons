@@ -377,12 +377,12 @@ export const topics: Record<string, TopicPage> = {
     description:
       'Track the current Anime Dungeons 1B Studio release, beta status, Roblox identity, code uncertainty, and the unavailable old Place.',
     summary:
-      'The current 1B Studio experience is live with a release label and a beta notice. Stable identity facts are separated from fast-changing balance, codes, and third-party pre-release claims.',
+      'The current 1B Studio experience is live under the Update 1 label and still carries a beta notice. Stable identity facts are separated from fast-changing balance, codes, and third-party claims.',
     sections: [
       {
-        heading: 'The current game is released and still in beta',
+        heading: 'Update 1 is live and the game remains in beta',
         paragraphs: [
-          'Roblox currently names the experience “[RELEASE] Anime Dungeons,” while the official description says the game is in beta and may contain bugs, unexpected changes, new content, and balance adjustments. Both statements can be true: the public release is live while development remains active.',
+          'Roblox now names the experience “[UPD 1⚔️] Anime Dungeons,” replacing the earlier release label. The official description still says the game is in beta and may contain bugs, unexpected changes, new content, and balance adjustments.',
           'Roblox API data maps Place ID 70863683083739 to Universe ID 8718668434 under the 1B Studio Group. That pair is the stable identity to check after updates.',
         ],
         bullets: [
@@ -390,6 +390,13 @@ export const topics: Record<string, TopicPage> = {
           'Universe ID: 8718668434',
           'Creator Group: 1B Studio (794813948)',
           'Genre: RPG / Action RPG',
+        ],
+      },
+      {
+        heading: 'What the Update 1 label confirms',
+        paragraphs: [
+          'The official title confirms that the first post-release update is active. It does not, by itself, verify a complete class balance table, dungeon drop list, banner rate change, or a new redeem code.',
+          'Recheck the live class screen, dungeon gates, loot cards, banner panel, and code menu before treating older launch values as current. New numerical claims stay out of the database until an official surface or current cross-check supports them.',
         ],
       },
       {
@@ -419,7 +426,7 @@ export const topics: Record<string, TopicPage> = {
       {
         question: 'Is Anime Dungeons released?',
         answer:
-          'Yes. The current Roblox title carries a release label, while the description also identifies the game as an actively changing beta.',
+          'Yes. The current Roblox title carries the Update 1 label, while the description still identifies the game as an actively changing beta.',
       },
       {
         question: 'Who develops the current Anime Dungeons?',
@@ -437,6 +444,81 @@ export const topics: Record<string, TopicPage> = {
       '/codes',
       '/guides/beginner-guide',
       '/dungeons',
+    ],
+  },
+  discord: {
+    route: '/discord',
+    label: 'Discord',
+    eyebrow: 'Official community access',
+    title: 'Anime Dungeons Discord Server',
+    description:
+      'Use the verified Anime Dungeons Discord invite, fix an expired invite, follow Update 1 announcements, and avoid fake Roblox login links.',
+    summary:
+      'Official launch media publishes the `anidg` Discord vanity. Join through the verified invite, then use announcements and update channels as discovery signals while keeping account actions inside Roblox.',
+    sections: [
+      {
+        heading: 'Use the verified anidg invite',
+        paragraphs: [
+          'The Anime Dungeons release trailer publishes the `anidg` Discord vanity. Open that exact invite instead of copying a shortened link from a script page, comment, or unrelated code video.',
+          'A Discord server is useful for announcements, maintenance notices, code posts, party finding, and Update 1 discoveries. It is not a replacement for the live game when checking item stats, class requirements, dungeon gates, or whether a reported code actually redeems.',
+        ],
+        links: [
+          {
+            label: 'Open the Anime Dungeons Discord',
+            href: officialGameFacts.discordUrl,
+          },
+        ],
+      },
+      {
+        heading: 'What to check after joining',
+        paragraphs: [
+          'Start with rules, announcements, update logs, known bugs, and code channels. Pin or follow the channels that carry developer posts so current Update 1 information does not get buried under build discussion.',
+          'Treat player claims as leads until the live 1B Studio experience confirms them. For tier lists and drop tables, look for the version, class, dungeon difficulty, and visible item card rather than relying on a cropped message alone.',
+        ],
+        bullets: [
+          'Confirm the server branding matches Anime Dungeons and 1B Studio.',
+          'Read announcements before asking whether a shutdown changed progression.',
+          'Keep code capitalization and punctuation exactly as posted.',
+          'Cross-check numerical claims in the current Place before spending resources.',
+        ],
+      },
+      {
+        heading: 'If the invite does not open',
+        paragraphs: [
+          'First try the vanity again in a normal browser or Discord client, then check whether Discord reports an expired invite, a server limit, or an account restriction. Do not install an executor, browser extension, or modified Roblox client to fix a Discord invite.',
+          'If the vanity changes, recheck the current Roblox experience, 1B Studio surface, or official launch media. A replacement is considered official only after one of those developer-controlled surfaces publishes it.',
+        ],
+      },
+      {
+        heading: 'Keep Roblox account actions on Roblox',
+        paragraphs: [
+          'Never paste a Roblox cookie, recovery code, session token, or password into Discord. Legitimate moderators do not need those credentials to restore items, verify a code, or join a party.',
+          'Use Roblox-owned pages for login, purchases, and account recovery. Leave any server that asks you to run a script or download an unofficial client before accessing Anime Dungeons content.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'What is the official Anime Dungeons Discord?',
+        answer:
+          'Official launch media publishes the `anidg` vanity at https://discord.gg/anidg.',
+      },
+      {
+        question: 'Does the Discord confirm every Anime Dungeons code?',
+        answer:
+          'A developer announcement is a strong source, but the current in-game redemption result remains the final check for whether a code still works.',
+      },
+      {
+        question: 'What should I do if the Anime Dungeons Discord invite expires?',
+        answer:
+          'Recheck the current Roblox experience, 1B Studio surface, or official launch media for a replacement. Do not trust a login or download page that only claims to be official.',
+      },
+    ],
+    relatedRoutes: [
+      '/official-links',
+      '/updates',
+      '/codes',
+      '/guides/solo-vs-party',
     ],
   },
   'official-links': {

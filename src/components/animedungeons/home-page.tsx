@@ -75,6 +75,13 @@ const systemLinks = [
     icon: Sparkles,
   },
   {
+    label: 'Discord',
+    href: '/discord',
+    summary:
+      'Open the verified anidg invite and use announcements without risking Roblox credentials.',
+    icon: Users,
+  },
+  {
     label: 'Official Links',
     href: '/official-links',
     summary:
@@ -97,7 +104,7 @@ const faq = [
   {
     question: 'Are there working Anime Dungeons codes?',
     answer:
-      'No active code was confirmed on a current official 1B Studio surface when checked on July 24, 2026. EARLYACCESS and RELEASE are community-reported and should be tested in the current game before relying on them.',
+      'No active code was confirmed on a current official 1B Studio surface when checked on August 1, 2026. Community-reported entries should be tested in the current game before relying on them.',
   },
   {
     question: 'Which classes are in Anime Dungeons?',
@@ -423,6 +430,7 @@ export function AnimeDungeonsHomePage() {
                   '/heroes',
                   '/weapons-and-armor',
                   '/spells',
+                  '/discord',
                   '/updates',
                   '/guides',
                 ].map((route) => (
