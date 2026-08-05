@@ -1,6 +1,6 @@
 import type { DataSource, VideoSource } from './types';
 
-export const checkedAt = '2026-08-03';
+export const checkedAt = '2026-08-04';
 
 export const officialGameFacts = {
   name: 'Anime Dungeons',
@@ -126,6 +126,15 @@ export const mrGuiderCodesSource: DataSource = {
   note: 'Current July code list and reward wording for RELEASE, EARLYACCESS, THANKYOU, ALLAGES, and 300KVISITS.',
 };
 
+export const currentCommunityCodesSource: DataSource = {
+  type: 'community',
+  label: 'Current Anime Dungeons code report',
+  url: 'https://www.reddit.com/r/RobloxCodesUnite/comments/1v4h0hi/anime_dungeons_codes_for_roblox/',
+  checkedAt,
+  confidence: 'needs_verification',
+  note: 'Reports five Update 1 and milestone strings. Rewards and live redemption remain unverified, so these stay test candidates.',
+};
+
 export const currentGameplaySource: DataSource = {
   type: 'youtube',
   label: 'Current release gameplay',
@@ -144,4 +153,5 @@ export const sourceCatalog = [
   bloxInformerSource,
   allThingsCodesSource,
   mrGuiderCodesSource,
+  currentCommunityCodesSource,
 ] satisfies DataSource[];

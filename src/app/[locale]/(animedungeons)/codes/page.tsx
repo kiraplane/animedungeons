@@ -5,6 +5,7 @@ import { Badge } from '@/components/ui/badge';
 import {
   activeCodes,
   codeStatusSummary,
+  previousCodes,
   reportedCodes,
 } from '@/data/animedungeons/codes';
 import { getRouteLabel } from '@/data/animedungeons/route-labels';
@@ -40,7 +41,7 @@ const faq = [
   {
     question: 'What are the active Anime Dungeons codes?',
     answer:
-      'No active code was confirmed by a current official 1B Studio surface when checked on July 24, 2026. EARLYACCESS and RELEASE are fresh community reports, not official confirmations.',
+      'No active code was confirmed by a current official 1B Studio surface when checked on August 4, 2026. UPDATE1, milestone strings, EARLYACCESS, and RELEASE are community reports, not official confirmations.',
   },
   {
     question: 'Does EARLYACCESS work in Anime Dungeons?',
@@ -70,7 +71,7 @@ export default function CodesPage() {
         description:
           'Current official status, reported code candidates, source boundaries, and verification steps for Anime Dungeons.',
         datePublished: '2026-07-24',
-        dateModified: '2026-07-24',
+        dateModified: '2026-08-04',
         mainEntityOfPage: pageUrl,
         publisher: {
           '@type': 'Organization',
@@ -97,7 +98,7 @@ export default function CodesPage() {
       <JsonLd data={jsonLd} />
       <header className="rounded-2xl border border-[#FFC55F]/25 bg-[radial-gradient(circle_at_top_right,rgba(255,197,95,.2),transparent_45%),#101326] p-6 md:p-8">
         <Badge className="bg-[#FFC55F] text-[#171006]">
-          Checked July 24, 2026
+          Checked August 4, 2026
         </Badge>
         <h1 className="mt-4 text-4xl font-black md:text-5xl">
           Anime Dungeons Codes
@@ -174,6 +175,28 @@ export default function CodesPage() {
                 <CodeCopyButton code={item.code} />
               </div>
               <p className="mt-4 border-white/8 border-t pt-4 text-xs leading-5 text-slate-500">
+                {item.notes}
+              </p>
+            </article>
+          ))}
+        </div>
+      </section>
+
+      <section className="rounded-xl border border-white/10 bg-[#101326] p-6">
+        <p className="text-xs font-bold uppercase tracking-[.18em] text-slate-500">
+          Previous report
+        </p>
+        <h2 className="mt-2 text-2xl font-black">Moved out of the test list</h2>
+        <div className="mt-4 grid gap-3 sm:grid-cols-2">
+          {previousCodes.map((item) => (
+            <article
+              key={item.code}
+              className="rounded-lg border border-white/8 bg-black/20 p-4"
+            >
+              <code className="text-lg font-black text-slate-300">
+                {item.code}
+              </code>
+              <p className="mt-2 text-sm leading-6 text-slate-400">
                 {item.notes}
               </p>
             </article>
