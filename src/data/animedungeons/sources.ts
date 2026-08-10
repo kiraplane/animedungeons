@@ -1,6 +1,6 @@
 import type { DataSource, VideoSource } from './types';
 
-export const checkedAt = '2026-08-04';
+export const checkedAt = '2026-08-10';
 
 export const officialGameFacts = {
   name: 'Anime Dungeons',
@@ -16,7 +16,8 @@ export const officialGameFacts = {
   oldPlaceId: 8862620807,
   oldUniverseId: 3353228800,
   createdAt: '2025-09-15',
-  updatedAt: '2026-08-01',
+  currentTitle: '[UPD 1.5] Anime Dungeons',
+  updatedAt: '2026-08-08T20:09:11.3338564Z',
   checkedAt,
   genre: ['RPG', 'Action RPG', 'Dungeon Crawler', 'Anime'],
   description:
@@ -69,7 +70,7 @@ export const officialExperienceSource: DataSource = {
   url: officialGameFacts.robloxUrl,
   checkedAt,
   confidence: 'high',
-  note: 'Current title, beta notice, gameplay loop, creator identity, and canonical Place.',
+  note: 'Current Update 1.5 title, beta notice, gameplay loop, creator identity, and canonical Place.',
 };
 
 export const robloxApiSource: DataSource = {

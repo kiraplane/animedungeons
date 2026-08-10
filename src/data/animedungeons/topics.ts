@@ -372,17 +372,17 @@ export const topics: Record<string, TopicPage> = {
   updates: {
     route: '/updates',
     label: 'Release & Updates',
-    eyebrow: 'Checked July 24, 2026',
+    eyebrow: 'Checked August 10, 2026',
     title: 'Anime Dungeons Release & Update Status',
     description:
       'Track the current Anime Dungeons 1B Studio release, beta status, Roblox identity, code uncertainty, and the unavailable old Place.',
     summary:
-      'The current 1B Studio experience is live under the Update 1 label and still carries a beta notice. Stable identity facts are separated from fast-changing balance, codes, and third-party claims.',
+      'The current 1B Studio experience is live under the Update 1.5 label and still carries a beta notice. Stable identity facts are separated from fast-changing balance, codes, and third-party claims.',
     sections: [
       {
-        heading: 'Update 1 is live and the game remains in beta',
+        heading: 'Update 1.5 is live and the game remains in beta',
         paragraphs: [
-          'Roblox now names the experience “[UPD 1⚔️] Anime Dungeons,” replacing the earlier release label. The official description still says the game is in beta and may contain bugs, unexpected changes, new content, and balance adjustments.',
+          'Roblox now names the experience “[UPD 1.5] Anime Dungeons,” replacing the earlier Update 1 label. The official description still says the game is in beta and may contain bugs, unexpected changes, new content, and balance adjustments.',
           'Roblox API data maps Place ID 70863683083739 to Universe ID 8718668434 under the 1B Studio Group. That pair is the stable identity to check after updates.',
         ],
         bullets: [
@@ -393,9 +393,9 @@ export const topics: Record<string, TopicPage> = {
         ],
       },
       {
-        heading: 'What the Update 1 label confirms',
+        heading: 'What the Update 1.5 label confirms',
         paragraphs: [
-          'The official title confirms that the first post-release update is active. It does not, by itself, verify a complete class balance table, dungeon drop list, banner rate change, or a new redeem code.',
+          'The official title confirms that Update 1.5 is active. It does not, by itself, verify a complete class balance table, dungeon drop list, banner rate change, or every reported redeem code.',
           'Recheck the live class screen, dungeon gates, loot cards, banner panel, and code menu before treating older launch values as current. New numerical claims stay out of the database until an official surface or current cross-check supports them.',
         ],
       },
@@ -409,7 +409,7 @@ export const topics: Record<string, TopicPage> = {
       {
         heading: 'Code status changes faster than the core identity',
         paragraphs: [
-          'Current third-party sources disagree: one reports EARLYACCESS, low-confidence posts report RELEASE, and other launch trackers list no active code. The current Roblox description used for this check does not publish an active code.',
+          'A current community tracker reports UPDATE1.5, matching the official title, while older sources retain EARLYACCESS, RELEASE, and Update 1 strings. The current Roblox description used for this check does not publish an active code.',
           'The codes page therefore separates reported entries from official confirmation. A live in-game success message is the final check until 1B Studio publishes a code on an official surface.',
         ],
         links: [{ label: 'Open the code status page', href: '/codes' }],
@@ -426,7 +426,7 @@ export const topics: Record<string, TopicPage> = {
       {
         question: 'Is Anime Dungeons released?',
         answer:
-          'Yes. The current Roblox title carries the Update 1 label, while the description still identifies the game as an actively changing beta.',
+          'Yes. The current Roblox title carries the Update 1.5 label, while the description still identifies the game as an actively changing beta.',
       },
       {
         question: 'Who develops the current Anime Dungeons?',
