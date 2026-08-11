@@ -12,7 +12,7 @@ export const reportedCodes: GameCode[] = [
     code: 'UPDATE1.5',
     reward: 'Free update rewards; exact contents require the live popup.',
     status: 'reported',
-    lastChecked: '2026-08-10',
+    lastChecked: '2026-08-11',
     sources: [currentCommunityCodesSource],
     notes:
       'The string matches the current official Update 1.5 title and is reported by the current community code tracker. It is not printed in the Roblox description, so the in-game result remains final.',
@@ -21,7 +21,7 @@ export const reportedCodes: GameCode[] = [
     code: 'UPDATE1',
     reward: 'Reward not independently confirmed.',
     status: 'previous',
-    lastChecked: '2026-08-10',
+    lastChecked: '2026-08-11',
     sources: [currentCommunityCodesSource],
     notes:
       'A current community tracker reports this Update 1 string. Test it in the current 1B Studio Place and trust the live popup.',
@@ -30,7 +30,7 @@ export const reportedCodes: GameCode[] = [
     code: '800KVISITS',
     reward: 'Reward not independently confirmed.',
     status: 'reported',
-    lastChecked: '2026-08-10',
+    lastChecked: '2026-08-11',
     sources: [currentCommunityCodesSource],
     notes:
       'A current community tracker reports this milestone string. It is not published in the Roblox description.',
@@ -39,7 +39,7 @@ export const reportedCodes: GameCode[] = [
     code: '500KVISITS',
     reward: 'Reward not independently confirmed.',
     status: 'reported',
-    lastChecked: '2026-08-10',
+    lastChecked: '2026-08-11',
     sources: [currentCommunityCodesSource],
     notes:
       'A current community tracker reports this milestone string. It is not published in the Roblox description.',
@@ -48,7 +48,7 @@ export const reportedCodes: GameCode[] = [
     code: '5KLIKES',
     reward: 'Reward not independently confirmed.',
     status: 'reported',
-    lastChecked: '2026-08-10',
+    lastChecked: '2026-08-11',
     sources: [currentCommunityCodesSource],
     notes:
       'A current community tracker reports this like-milestone string. Test it before planning rerolls or gems.',
@@ -57,7 +57,7 @@ export const reportedCodes: GameCode[] = [
     code: 'DELAY',
     reward: 'Reward not independently confirmed.',
     status: 'reported',
-    lastChecked: '2026-08-10',
+    lastChecked: '2026-08-11',
     sources: [currentCommunityCodesSource],
     notes:
       'A current community tracker reports this compensation-style string. It remains a test candidate, not an official active code.',
@@ -66,7 +66,7 @@ export const reportedCodes: GameCode[] = [
     code: 'ALLAGES',
     reward: 'Reported as 2,000 Gems, 25 Trait Rerolls, and 25 Stat Rerolls.',
     status: 'reported',
-    lastChecked: '2026-08-10',
+    lastChecked: '2026-08-11',
     sources: [mrGuiderCodesSource],
     notes:
       'A current July tracker lists this code. Redeem on the current 1B Studio Place before planning rerolls.',
@@ -75,7 +75,7 @@ export const reportedCodes: GameCode[] = [
     code: 'THANKYOU',
     reward: 'Reported as 1,000 Gems and 20 Trait Rerolls.',
     status: 'reported',
-    lastChecked: '2026-08-10',
+    lastChecked: '2026-08-11',
     sources: [mrGuiderCodesSource],
     notes:
       'A current July tracker lists this code. The in-game popup is the final reward check.',
@@ -84,7 +84,7 @@ export const reportedCodes: GameCode[] = [
     code: 'EARLYACCESS',
     reward: 'Reported as 15 rerolls and 1,500 gems.',
     status: 'reported',
-    lastChecked: '2026-08-10',
+    lastChecked: '2026-08-11',
     sources: [allThingsCodesSource, mrGuiderCodesSource],
     notes:
       'Two guide trackers now report this code. Use only the current 1B Studio experience because one older source still points to the unavailable old Place.',
@@ -93,7 +93,7 @@ export const reportedCodes: GameCode[] = [
     code: 'RELEASE',
     reward: 'Reported as 1,000 Gems and 10 Trait Rerolls.',
     status: 'reported',
-    lastChecked: '2026-08-10',
+    lastChecked: '2026-08-11',
     sources: [mrGuiderCodesSource],
     notes:
       'A current tracker now supplies reward wording, while recent beginner videos independently show the launch-code redeem flow. The live popup remains final.',
@@ -105,7 +105,7 @@ export const previousCodes: GameCode[] = [
     code: '300KVISITS',
     reward: 'Previously reported as 500 Gems, 10 Trait Rerolls, and 10 Stat Rerolls.',
     status: 'previous',
-    lastChecked: '2026-08-10',
+    lastChecked: '2026-08-11',
     sources: [mrGuiderCodesSource, currentCommunityCodesSource],
     notes:
       'A newer community list moves this milestone code to expired. It remains in history instead of the current test list.',
@@ -113,7 +113,7 @@ export const previousCodes: GameCode[] = [
 ];
 
 export const codeStatusSummary = {
-  checkedAt: '2026-08-10',
+  checkedAt: '2026-08-11',
   officialActiveCount: activeCodes.length,
   reportedCount: reportedCodes.length,
   message:
