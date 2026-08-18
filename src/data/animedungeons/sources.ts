@@ -1,6 +1,6 @@
 import type { DataSource, VideoSource } from './types';
 
-export const checkedAt = '2026-08-15';
+export const checkedAt = '2026-08-17';
 
 export const officialGameFacts = {
   name: 'Anime Dungeons',
