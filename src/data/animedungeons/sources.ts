@@ -1,6 +1,6 @@
 import type { DataSource, VideoSource } from './types';
 
-export const checkedAt = '2026-08-17';
+export const checkedAt = '2026-08-20';
 
 export const officialGameFacts = {
   name: 'Anime Dungeons',
@@ -114,17 +114,17 @@ export const allThingsCodesSource: DataSource = {
   label: 'AllThings.How code tracker',
   url: 'https://allthings.how/anime-dungeons-codes/',
   checkedAt,
-  confidence: 'needs_verification',
-  note: 'Reports EARLYACCESS, but its Play link points to the unavailable old Place.',
+  confidence: 'medium',
+  note: 'August 2026 cross-check for 30KMEMBERS, 15KLIKES, UPDATE1.5, and reported reward bundles.',
 };
 
 export const mrGuiderCodesSource: DataSource = {
   type: 'guide_site',
   label: 'MrGuider Anime Dungeons code tracker',
-  url: 'https://www.mrguider.org/codes/anime-dungeons-codes/',
+  url: 'https://www.mrguider.org/roblox/anime-dungeons-codes/',
   checkedAt,
   confidence: 'medium',
-  note: 'Current July code list and reward wording for RELEASE, EARLYACCESS, THANKYOU, ALLAGES, and 300KVISITS.',
+  note: 'August 2026 code list used to cross-check 30KMEMBERS, 15KLIKES, UPDATE1.5, and earlier reward strings.',
 };
 
 export const currentCommunityCodesSource: DataSource = {
