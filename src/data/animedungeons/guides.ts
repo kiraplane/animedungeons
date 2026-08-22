@@ -561,6 +561,102 @@ export const guides: Guide[] = [
       '/weapons-and-armor',
     ],
   },
+  {
+    slug: 'trials-and-raids-guide',
+    title: 'Anime Dungeons Trials and Raids Guide',
+    seoTitle: 'Anime Dungeons Raid Guide - Trials, Build & Fast Route',
+    seoDescription:
+      'Prepare for Anime Dungeons trials and raids, learn the Update 2 Warrior route, time Q movement, and build a repeatable fallback setup.',
+    summary:
+      'Use trials to prove the build, then run raids with deliberate Q movement, room-by-room ability timing, and a fallback route when the fastest setup is unavailable.',
+    category: 'Dungeons',
+    sourceStrategy: 'popular_youtube',
+    videoSearchQueries: [
+      'Anime Dungeons raids guide Update 2',
+      'Anime Dungeons trials guide',
+      'Anime Dungeons fastest raid route',
+    ],
+    sourceNotes:
+      'The embedded August 21 Update 2 video supplies the tested Warrior and Shadow Monarch raid route, Q timing, damage-over-time setup, and creator benchmark. A separate current Hatter video cross-checks trial demand. Exact drops and beta requirements are intentionally left to the live client.',
+    coverImageUrl: videos.raidRoute.thumbnailUrl,
+    video: videos.raidRoute,
+    tags: ['Update 2', 'Raids', 'Trials'],
+    difficulty: 'Advanced',
+    body: [
+      {
+        heading: 'Treat a trial clear as the raid readiness check',
+        paragraphs: [
+          'A raid route is useful only when the class, movement, and main ability already work under pressure. Clear the trial tied to the class or ability you plan to bring, then repeat the encounter until the result does not depend on one lucky drop or another player carrying the damage.',
+          'Before entering a raid, confirm the live requirement, equip the intended class, and put the movement and damage-over-time tools on familiar inputs. Update 2 can change gates and rewards faster than a static table, so the portal and reward preview are the final checks.',
+        ],
+        bullets: [
+          'Use the current trials guide when an unlock encounter is still the bottleneck.',
+          'Keep one proven weapon and armor set instead of changing several systems at once.',
+          'Record whether a failed attempt came from route timing, survival, or damage.',
+        ],
+      },
+      {
+        heading:
+          'The current fast route is a specific build, not a universal tier claim',
+        paragraphs: [
+          'The August 21 route video demonstrates Warrior with the Shadow Monarch class and a new damage-over-time ability. The creator uses repeated Q movement to cross rooms quickly, activates damage before reaching the next pack, and finishes enemies while continuing toward the next checkpoint.',
+          'That makes the route a tested setup rather than proof that Warrior is always the best class. If one required unlock is missing, use the same route principles with the strongest class you can control: front-load persistent damage, preserve movement for room transitions, and avoid waiting beside enemies that are already dying.',
+        ],
+      },
+      {
+        heading: 'Use Q to connect rooms instead of correcting panic movement',
+        paragraphs: [
+          'The video gains most of its time by chaining Q movement toward the next objective. Decide the exit direction before the current pack ends, then move as soon as persistent damage can finish the remaining health. Random dashes inside a room spend the same resource without advancing the route.',
+          'Do not copy the speed line until the room is understood. On the first attempts, leave one movement charge available for a missed attack or dangerous telegraph. Once the route survives ordinary mistakes, shift that reserve into faster transitions.',
+        ],
+      },
+      {
+        heading: 'Assign major abilities to fixed rooms',
+        paragraphs: [
+          'A fast raid is easier to repeat when each major ability has a planned room. The demonstrated route uses the damage-over-time effect early, saves additional activations for later groups, and avoids wasting the strongest option on an enemy that the weapon can finish safely.',
+          'Write a simple sequence after the first clear: opening ability, first transition, second activation, weapon-only room, and boss entry. If an ability is still cooling down at its assigned room, the previous use was too late or the route moved faster than the cooldown plan.',
+        ],
+      },
+      {
+        heading: 'Read the sub-minute clear as a benchmark, not a promise',
+        paragraphs: [
+          'The creator reports solo clears around 57 seconds to one minute five seconds, with a faster duo result. Those numbers describe one build, account, and video test. Ping, equipment, beta balance, party damage, and execution can all change the result.',
+          'Measure improvement against your own clean baseline. First remove deaths and missed rooms, then reduce idle time between packs. A stable ninety-second clear is a better farming route than a single sub-minute run followed by repeated resets.',
+        ],
+      },
+      {
+        heading: 'Use a fallback route when the showcase setup is missing',
+        paragraphs: [
+          'Without Shadow Monarch or the showcased ability, prioritize one room-clear tool, one safe boss-damage option, and enough movement to keep the route connected. Run the same raid twice before changing gear so the comparison is based on repeatable evidence.',
+          'Farm the trial, dungeon, or Index route that supplies the missing bottleneck, then return to the raid. Do not spend every rare reforge or trait resource trying to imitate one video immediately; unlock the route first, test the base setup, and invest only after the raid becomes a useful farm.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'What is the fastest current Anime Dungeons raid setup?',
+        answer:
+          'An August 21 Update 2 video demonstrates Warrior with Shadow Monarch, a damage-over-time ability, and repeated Q movement. Treat it as a tested route, not a permanent universal ranking.',
+      },
+      {
+        question: 'How fast can an Anime Dungeons raid be cleared?',
+        answer:
+          'The featured creator reports roughly 57 seconds to one minute five seconds solo for the showcased setup. Your account, ping, party, and current beta balance can produce a different result.',
+      },
+      {
+        question: 'What should I do if I do not have the fast raid build?',
+        answer:
+          'Use one room-clear tool, one boss-damage option, and planned movement, then farm the specific trial or dungeon that unlocks the missing class, ability, or equipment bottleneck.',
+      },
+    ],
+    relatedRoutes: [
+      '/dungeons',
+      '/classes',
+      '/guides/level-5-progression-route',
+      '/guides/loot-upgrade-checklist',
+      '/weapons-and-armor',
+    ],
+  },
 ];
 
 export function getGuide(slug: string) {
