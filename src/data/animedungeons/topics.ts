@@ -377,12 +377,12 @@ export const topics: Record<string, TopicPage> = {
     description:
       'Track the current Anime Dungeons 1B Studio release, beta status, Roblox identity, code uncertainty, and the unavailable old Place.',
     summary:
-      'The current 1B Studio experience is live under the Update 1.5 label and still carries a beta notice. Stable identity facts are separated from fast-changing balance, codes, and third-party claims.',
+      'The current 1B Studio experience is live under Update 3 and still carries a beta notice. The newest source-backed player workflow is the SAO-inspired raid, with fresh codes and raid preparation separated from unverified exact drop values.',
     sections: [
       {
-        heading: 'Update 1.5 is live and the game remains in beta',
+        heading: 'Update 3 is live and the game remains in beta',
         paragraphs: [
-          'Roblox now names the experience “[UPD 1.5] Anime Dungeons,” replacing the earlier Update 1 label. The official description still says the game is in beta and may contain bugs, unexpected changes, new content, and balance adjustments.',
+          'Roblox now names the experience “[UPD 3⚔️] Anime Dungeons.” The official description still says the game is in beta and may contain bugs, unexpected changes, new content, and balance adjustments.',
           'Roblox API data maps Place ID 70863683083739 to Universe ID 8718668434 under the 1B Studio Group. That pair is the stable identity to check after updates.',
         ],
         bullets: [
@@ -393,10 +393,10 @@ export const topics: Record<string, TopicPage> = {
         ],
       },
       {
-        heading: 'What the Update 1.5 label confirms',
+        heading: 'What the Update 3 evidence confirms',
         paragraphs: [
-          'The official title confirms that Update 1.5 is active. It does not, by itself, verify a complete class balance table, dungeon drop list, banner rate change, or every reported redeem code.',
-          'Recheck the live class screen, dungeon gates, loot cards, banner panel, and code menu before treating older launch values as current. New numerical claims stay out of the database until an official surface or current cross-check supports them.',
+          'The official title confirms Update 3. A current September 4 walkthrough independently shows a Sword Art Online-inspired raid with new enemies, bosses, rewards, weapons, and gear. It does not establish a permanent exact drop-rate table.',
+          'Use the dedicated Update 3 raid guide for the first-run order, then confirm raid gates, loot cards, equipment values, and boss behavior in the live beta client.',
         ],
       },
       {
@@ -409,7 +409,7 @@ export const topics: Record<string, TopicPage> = {
       {
         heading: 'Code status changes faster than the core identity',
         paragraphs: [
-          'A current community tracker reports UPDATE1.5, matching the official title, while older sources retain EARLYACCESS, RELEASE, and Update 1 strings. The current Roblox description used for this check does not publish an active code.',
+          'Current September trackers agree on SAO and UPDATE3, with 30KLIKES, 7MVISITS, and JJKTRIAL also in the current list. Older sources retain launch and Update 1 strings. The Roblox description used for this check does not publish a complete active-code table.',
           'The codes page therefore separates reported entries from official confirmation. A live in-game success message is the final check until 1B Studio publishes a code on an official surface.',
         ],
         links: [{ label: 'Open the code status page', href: '/codes' }],
@@ -426,7 +426,7 @@ export const topics: Record<string, TopicPage> = {
       {
         question: 'Is Anime Dungeons released?',
         answer:
-          'Yes. The current Roblox title carries the Update 1.5 label, while the description still identifies the game as an actively changing beta.',
+          'Yes. The current Roblox title carries the Update 3 label, while the description still identifies the game as an actively changing beta.',
       },
       {
         question: 'Who develops the current Anime Dungeons?',
@@ -443,6 +443,7 @@ export const topics: Record<string, TopicPage> = {
       '/official-links',
       '/codes',
       '/guides/beginner-guide',
+      '/guides/update-3-sao-raid-guide',
       '/dungeons',
     ],
   },

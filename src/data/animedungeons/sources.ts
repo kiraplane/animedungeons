@@ -1,6 +1,6 @@
 import type { DataSource, VideoSource } from './types';
 
-export const checkedAt = '2026-08-24';
+export const checkedAt = '2026-09-07';
 
 export const officialGameFacts = {
   name: 'Anime Dungeons',
@@ -16,8 +16,8 @@ export const officialGameFacts = {
   oldPlaceId: 8862620807,
   oldUniverseId: 3353228800,
   createdAt: '2025-09-15',
-  currentTitle: '[UPD 2 🌊] Anime Dungeons',
-  updatedAt: '2026-08-22T01:13:55.4374034Z',
+  currentTitle: '[UPD 3⚔️] Anime Dungeons',
+  updatedAt: '2026-09-06T18:26:34.2613716Z',
   checkedAt,
   genre: ['RPG', 'Action RPG', 'Dungeon Crawler', 'Anime'],
   description:
@@ -33,7 +33,8 @@ export const videos: Record<
   | 'currentGameplay'
   | 'levelFiveProgression'
   | 'trialsGuide'
-  | 'raidRoute',
+  | 'raidRoute'
+  | 'updateThreeRaid',
   VideoSource
 > = {
   releaseTrailer: {
@@ -86,6 +87,17 @@ export const videos: Record<
     viewCountLabel: '245 views at check',
     checkedAt,
   },
+  updateThreeRaid: {
+    id: 'Lv25M6X3fD8',
+    title:
+      'ANIME DUNGEONS UPDATE 3 IS INSANE! NEW RAID + EVERYTHING YOU NEED TO KNOW!',
+    channel: 'Frost God',
+    url: 'https://www.youtube.com/watch?v=Lv25M6X3fD8',
+    thumbnailUrl: 'https://i.ytimg.com/vi/Lv25M6X3fD8/maxresdefault.jpg',
+    publishedAt: '2026-09-04',
+    viewCountLabel: '6.5K+ views at September 7 check',
+    checkedAt,
+  },
 };
 
 export const officialExperienceSource: DataSource = {
@@ -94,7 +106,7 @@ export const officialExperienceSource: DataSource = {
   url: officialGameFacts.robloxUrl,
   checkedAt,
   confidence: 'high',
-  note: 'Current Update 2 title, August 22 update timestamp, beta notice, gameplay loop, creator identity, and canonical Place.',
+  note: 'Current Update 3 title, September 6 update timestamp, beta notice, gameplay loop, creator identity, and canonical Place.',
 };
 
 export const robloxApiSource: DataSource = {
@@ -187,6 +199,15 @@ export const raidRouteSource: DataSource = {
   note: 'August 21 route test for Warrior, Shadow Monarch, a damage-over-time ability, Q timing, and a creator-reported sub-minute benchmark.',
 };
 
+export const updateThreeRaidSource: DataSource = {
+  type: 'youtube',
+  label: 'Anime Dungeons Update 3 SAO raid overview',
+  url: videos.updateThreeRaid.url,
+  checkedAt,
+  confidence: 'medium',
+  note: 'September 4 current-version overview for the SAO-inspired raid, new enemies, bosses, rewards, weapons, and gear. Exact live values remain client-final.',
+};
+
 export const sourceCatalog = [
   officialExperienceSource,
   robloxApiSource,
@@ -195,6 +216,7 @@ export const sourceCatalog = [
   currentGameplaySource,
   trialsGuideSource,
   raidRouteSource,
+  updateThreeRaidSource,
   bloxInformerSource,
   allThingsCodesSource,
   mrGuiderCodesSource,

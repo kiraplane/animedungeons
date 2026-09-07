@@ -657,6 +657,107 @@ export const guides: Guide[] = [
       '/weapons-and-armor',
     ],
   },
+  {
+    slug: 'update-3-sao-raid-guide',
+    title: 'Anime Dungeons Update 3 SAO Raid Guide',
+    seoTitle: 'Anime Dungeons Update 3 Guide - SAO Raid, Codes & Loot',
+    seoDescription:
+      'Prepare for the Anime Dungeons Update 3 SAO raid with current codes, a first-run checklist, build priorities, loot checks, and safe farming decisions.',
+    summary:
+      'Update 3 adds a Sword Art Online-inspired raid loop. Redeem the current code pair, enter with a proven build, learn the rooms before chasing speed, and evaluate new weapons and gear against a repeatable baseline.',
+    category: 'Dungeons',
+    sourceStrategy: 'youtube_explainer',
+    videoSearchQueries: [
+      'Anime Dungeons Update 3 guide',
+      'Anime Dungeons SAO raid guide',
+      'Anime Dungeons Update 3 codes',
+    ],
+    sourceNotes:
+      'The official Roblox title confirms Update 3. The embedded September 4 walkthrough confirms the SAO-inspired raid and new enemies, bosses, rewards, weapons, and gear. Current code rewards are cross-checked between Pro Game Guides, AllThings.How, and MrGuider; the live beta client remains final for gates and item values.',
+    coverImageUrl: videos.updateThreeRaid.thumbnailUrl,
+    video: videos.updateThreeRaid,
+    tags: ['Update 3', 'SAO Raid', 'Codes'],
+    difficulty: 'Intermediate',
+    body: [
+      {
+        heading: 'Confirm Update 3 before building around the raid',
+        paragraphs: [
+          'Open the current 1B Studio experience at Place ID 70863683083739 and confirm the Roblox title shows UPD 3. The older Anime Dungeons Place is not the current game, and an old server can also hide a new portal, code, or balance change. Rejoin once before troubleshooting content that appears missing.',
+          'The official title is the reliable version boundary. A current September 4 walkthrough then supplies the useful player-facing context: Update 3 centers on a Sword Art Online-inspired raid and introduces new enemies, bosses, rewards, weapons, and gear. Exact requirements and stat values can still move while the game remains in beta, so read the live portal and item cards before committing resources.',
+        ],
+        bullets: [
+          'Current Place ID: 70863683083739.',
+          'Current creator: 1B Studio.',
+          'Current official version signal: UPD 3.',
+          'Rejoin a fresh server when the raid or code interface looks stale.',
+        ],
+      },
+      {
+        heading: 'Redeem the Update 3 resources before spending',
+        paragraphs: [
+          'Try UPDATE3 first for the reported 20 Trait Rerolls, 2,000 Gems, and 5 Wheel Spins, then SAO for the reported 15 Trait Rerolls, 500 Gems, and 3 Wheel Spins. Current trackers agree on both strings and reward bundles, but neither code is printed in the official Roblox description, so the in-game success popup is the final authority.',
+          'Do not immediately spend every reward on the first new hero or item you see. Record the starting resource totals, redeem one code at a time, and decide which raid problem the resources should solve. Gems and Wheel Spins can expand options; Trait Rerolls should stay reserved for a hero that already has a demonstrated place in the raid or normal dungeon route.',
+        ],
+      },
+      {
+        heading: 'Enter the SAO raid with a proven baseline build',
+        paragraphs: [
+          'The first raid attempt should answer route questions, not prove a speed record. Bring the class and equipment set that already clears a familiar dungeon consistently. Keep one reliable room-clear ability, one safe boss-damage option, and enough movement or recovery to survive an unfamiliar telegraph. A new weapon is not automatically a better weapon until it improves the same job.',
+          'Before entering, compare the live recommended level, party size, entry cost, and reward preview with your current account. If normal dungeon enemies already consume every heal, farm the easier route for class-matched equipment first. A failed raid caused by basic survival will not be fixed by spending rare rerolls on an untested hero.',
+        ],
+      },
+      {
+        heading: 'Learn rooms first, then optimize the route',
+        paragraphs: [
+          'During the opening run, identify where enemies spawn, which packs can be grouped, which attack needs a dodge, and which room should receive the longest cooldown. Preserve one movement or defensive answer until the boss pattern is visible. When persistent damage can finish a pack, start moving toward the next objective instead of waiting beside enemies that are already defeated in practice.',
+          'After the clear, write a short sequence: opening ability, first dangerous room, recovery point, boss entry, and the attack that caused the most lost time or health. Repeat the same route before changing several pieces of gear. The comparison becomes useful only when one variable changes at a time.',
+        ],
+      },
+      {
+        heading: 'Judge new weapons and gear by the wall they remove',
+        paragraphs: [
+          'Update videos can show exciting drops without proving that every new item is best for every class. Compare a weapon by its relevant class scaling, attack pattern, reach, and whether it improves rooms or the boss. Compare armor by whether it creates a survivable mistake margin without giving up the damage needed to finish the encounter.',
+          'Keep the previous working item until the replacement wins more than one run. If the new item changes both stats and play style, test it in a familiar dungeon before blaming the raid route. Reforging and expensive upgrades belong on equipment that has already earned a stable slot, not on every Update 3 drop.',
+        ],
+      },
+      {
+        heading: 'Turn the raid into a repeatable farm',
+        paragraphs: [
+          'A farm route begins when the clear survives ordinary mistakes. Track completion time, deaths, potion use, and whether the desired reward can actually drop from the selected difficulty. If a party makes the run reliable, keep roles clear: room clear, boss pressure, control, and recovery should complement one another instead of four players competing for the same job.',
+          'Raise difficulty only when the existing route no longer needs perfect cooldown timing or a carry. If the next tier fails, return with a named goal such as better boss damage, one armor slot, a class level, or a specific spell. That approach keeps Update 3 progression tied to evidence instead of endless random rolling.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'What is new in Anime Dungeons Update 3?',
+        answer:
+          'The official title confirms Update 3, while a current walkthrough shows a Sword Art Online-inspired raid with new enemies, bosses, rewards, weapons, and gear.',
+      },
+      {
+        question: 'What are the Anime Dungeons Update 3 codes?',
+        answer:
+          'Current sources list UPDATE3 and SAO. They report Gems, Trait Rerolls, and Wheel Spins; use the live redemption popup as the final reward check.',
+      },
+      {
+        question: 'Should I reroll traits before trying the SAO raid?',
+        answer:
+          'Usually no. Run the raid with a proven build first, identify the real wall, and spend scarce rerolls only on a hero that solves it.',
+      },
+      {
+        question: 'Should every Update 3 weapon replace my old one?',
+        answer:
+          'No. Test the new weapon against the same room and boss route, and keep the old item until the replacement improves repeatable clears.',
+      },
+    ],
+    relatedRoutes: [
+      '/updates',
+      '/codes',
+      '/dungeons',
+      '/weapons-and-armor',
+      '/guides/trials-and-raids-guide',
+    ],
+  },
 ];
 
 export function getGuide(slug: string) {
