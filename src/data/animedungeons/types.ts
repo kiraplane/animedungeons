@@ -56,6 +56,8 @@ export interface Guide {
   video?: VideoSource;
   tags: string[];
   difficulty: 'Beginner' | 'Intermediate' | 'Advanced';
+  publishedAt?: string;
+  updatedAt?: string;
   body: Array<{
     heading: string;
     paragraphs: string[];

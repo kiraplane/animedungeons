@@ -51,8 +51,8 @@ export default async function GuidePage({
         '@type': 'Article',
         headline: guide.title,
         description: guide.seoDescription,
-        datePublished: '2026-07-24',
-        dateModified: '2026-07-24',
+        datePublished: guide.publishedAt ?? '2026-07-24',
+        dateModified: guide.updatedAt ?? officialGameFacts.checkedAt,
         image: coverUrl,
         mainEntityOfPage: pageUrl,
         publisher: {

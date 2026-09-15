@@ -1,6 +1,6 @@
 import type { DataSource, VideoSource } from './types';
 
-export const checkedAt = '2026-09-07';
+export const checkedAt = '2026-09-15';
 
 export const officialGameFacts = {
   name: 'Anime Dungeons',
@@ -16,8 +16,8 @@ export const officialGameFacts = {
   oldPlaceId: 8862620807,
   oldUniverseId: 3353228800,
   createdAt: '2025-09-15',
-  currentTitle: '[UPD 3⚔️] Anime Dungeons',
-  updatedAt: '2026-09-06T18:26:34.2613716Z',
+  currentTitle: '[UPD 3.5✨] Anime Dungeons',
+  updatedAt: '2026-09-11T19:06:30.059Z',
   checkedAt,
   genre: ['RPG', 'Action RPG', 'Dungeon Crawler', 'Anime'],
   description:
@@ -34,7 +34,8 @@ export const videos: Record<
   | 'levelFiveProgression'
   | 'trialsGuide'
   | 'raidRoute'
-  | 'updateThreeRaid',
+  | 'updateThreeRaid'
+  | 'updateThreeFive',
   VideoSource
 > = {
   releaseTrailer: {
@@ -98,6 +99,17 @@ export const videos: Record<
     viewCountLabel: '6.5K+ views at September 7 check',
     checkedAt,
   },
+  updateThreeFive: {
+    id: 'y6TK47WuSHs',
+    title:
+      'UPDATE 3.5 IS BROKEN! How to Get OVERPOWERED in Anime Dungeons!',
+    channel: 'Frost God',
+    url: 'https://www.youtube.com/watch?v=y6TK47WuSHs',
+    thumbnailUrl: 'https://i.ytimg.com/vi/y6TK47WuSHs/maxresdefault.jpg',
+    publishedAt: '2026-09-11',
+    viewCountLabel: '3.1K+ views at September 15 check',
+    checkedAt,
+  },
 };
 
 export const officialExperienceSource: DataSource = {
@@ -106,7 +118,7 @@ export const officialExperienceSource: DataSource = {
   url: officialGameFacts.robloxUrl,
   checkedAt,
   confidence: 'high',
-  note: 'Current Update 3 title, September 6 update timestamp, beta notice, gameplay loop, creator identity, and canonical Place.',
+  note: 'Current Update 3.5 title, September 11 update timestamp, beta notice, gameplay loop, creator identity, and canonical Place.',
 };
 
 export const robloxApiSource: DataSource = {
@@ -163,6 +175,24 @@ export const mrGuiderCodesSource: DataSource = {
   note: 'August 2026 code list used to cross-check 30KMEMBERS, 15KLIKES, UPDATE1.5, and earlier reward strings.',
 };
 
+export const nerdsChalkCodesSource: DataSource = {
+  type: 'guide_site',
+  label: 'NerdsChalk Anime Dungeons code tracker',
+  url: 'https://nerdschalk.com/anime-dungeons-codes/',
+  checkedAt,
+  confidence: 'medium',
+  note: 'September 12 cross-check for INFINITY, UPDATE3.5, SAO, UPDATE3, and their reported reward bundles.',
+};
+
+export const updateThreeFiveGuideSource: DataSource = {
+  type: 'guide_site',
+  label: 'AllThings.How Update 3.5 progression guide',
+  url: 'https://allthings.how/anime-dungeons-update-3-5-how-to-get-overpowered-with-limit-break/',
+  checkedAt,
+  confidence: 'medium',
+  note: 'Cross-check for Limit Break requirements, Divinity Shard progression, Infinite Dungeon, and bonus-selection priorities.',
+};
+
 export const currentCommunityCodesSource: DataSource = {
   type: 'community',
   label: 'Current Anime Dungeons code report',
@@ -217,6 +247,8 @@ export const sourceCatalog = [
   trialsGuideSource,
   raidRouteSource,
   updateThreeRaidSource,
+  nerdsChalkCodesSource,
+  updateThreeFiveGuideSource,
   bloxInformerSource,
   allThingsCodesSource,
   mrGuiderCodesSource,

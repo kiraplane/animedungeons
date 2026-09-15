@@ -758,6 +758,108 @@ export const guides: Guide[] = [
       '/guides/trials-and-raids-guide',
     ],
   },
+  {
+    slug: 'update-3-5-infinity-limit-break-guide',
+    title: 'Anime Dungeons Update 3.5 Infinity and Limit Break Guide',
+    seoTitle: 'Anime Dungeons Update 3.5 Guide - Infinity & Limit Break',
+    seoDescription:
+      'Use the Anime Dungeons Update 3.5 Infinity mode and Limit Break systems with level gates, shard costs, raid drop rates, bonus priorities, and new codes.',
+    summary:
+      'Update 3.5 turns raids and the new Infinite Dungeon into one late-game loop: farm Divinity Shards, prepare two matching Divine 2 heroes, choose party-wide bonuses deliberately, and Limit Break only a unit you will keep using.',
+    category: 'Dungeons',
+    sourceStrategy: 'youtube_explainer',
+    videoSearchQueries: [
+      'Anime Dungeons Update 3.5 guide',
+      'Anime Dungeons Infinity mode guide',
+      'Anime Dungeons Limit Break requirements',
+    ],
+    sourceNotes:
+      'Built from the September 11 current-version walkthrough, the current Roblox Update 3.5 title, and a September 12 competitor progression guide. Exact live values remain subject to beta balance changes.',
+    coverImageUrl: videos.updateThreeFive.thumbnailUrl,
+    video: videos.updateThreeFive,
+    tags: ['Update 3.5', 'Infinity', 'Limit Break'],
+    difficulty: 'Advanced',
+    publishedAt: '2026-09-15',
+    updatedAt: '2026-09-15',
+    body: [
+      {
+        heading: 'Start with the two Update 3.5 gates',
+        paragraphs: [
+          'The current 1B Studio Roblox title is UPD 3.5. Rejoin a fresh server before looking for the new systems because an older server can keep the previous interface. Infinite Dungeon opens at level 20, while the Limit Break system opens at level 25.',
+          'Do not treat those levels as the whole requirement. Infinity is an endless progression mode, and Limit Break consumes a prepared duplicate. Reach the gate with a stable dungeon and raid build first so the new systems improve an account that can already farm consistently.',
+        ],
+        bullets: [
+          'Infinite Dungeon gate: level 20.',
+          'Limit Break station gate: level 25.',
+          'Use the current Place ID 70863683083739.',
+          'Rejoin before troubleshooting a missing menu or station.',
+        ],
+      },
+      {
+        heading: 'Prepare a Limit Break without wasting the duplicate',
+        paragraphs: [
+          'A Limit Break uses two copies of the same hero. Both copies need to reach Divine 2, which costs 32 Divinity Shards per copy, and both need to be at least level 25. The station merges the pair into one stronger unit, and the same unit can be Limit Broken twice.',
+          'Choose the target by role and usage, not rarity alone. A carry that clears both raids and Infinity gains more account value than a niche unit that only appears in one easy room. Keep the second copy untouched until the first copy has proved it belongs in your regular party.',
+        ],
+        bullets: [
+          'Required copies: two of the same hero.',
+          'Required evolution: Divine 2 on both copies.',
+          'Shard budget: 32 Divinity Shards per copy, 64 total.',
+          'Required hero level: 25 or higher on both copies.',
+          'Maximum Limit Breaks per unit: two.',
+        ],
+      },
+      {
+        heading: 'Farm Divinity Shards where the odds improved',
+        paragraphs: [
+          'Update 3.5 improves the featured raid shard rates: Raid 1 rises from 10% to 25%, and Raid 2 rises from 20% to 40%. That makes the harder route better only when your group clears it reliably. Failed or very slow attempts can still lose to repeatable Raid 1 clears over a fixed session.',
+          'Measure shards per hour instead of judging one lucky drop. Run the same route for a short block, record clear time and failures, then move up only when the higher rate survives ordinary mistakes. Save trait and stat rerolls until the chosen Limit Break target is settled.',
+        ],
+      },
+      {
+        heading: 'Use Infinity bonuses as a party plan',
+        paragraphs: [
+          'Infinite Dungeon adds endless waves, its own leaderboard, seasonal ranking, cosmetic rewards, and a bonus-selection system. The selected bonuses are shared across the party, so one player choosing a narrow personal benefit can weaken the whole run.',
+          'Prioritize the first wall you can name. Take damage when waves time out, survivability when the party dies to a repeated mechanic, and economy or scaling when the run is stable but falls behind later. Discuss the choice before confirming it in a group run.',
+        ],
+      },
+      {
+        heading: 'Claim the patch codes before starting the farm',
+        paragraphs: [
+          'Current September tracking reports INFINITY and UPDATE3.5 for 500 Gems, 15 Trait Rerolls, and 3 Wheel Spins each. The period in UPDATE3.5 is part of the string. SAO and UPDATE3 also remain current candidates in the source check.',
+          'Redeem one code at a time and use the live popup as the final result because the official Roblox description does not publish a complete code table. Hold the rerolls until you have chosen the hero and role that will receive the Limit Break investment.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'What level unlocks Infinite Dungeon in Anime Dungeons?',
+        answer: 'The Update 3.5 walkthrough reports that Infinite Dungeon opens at level 20.',
+      },
+      {
+        question: 'How many Divinity Shards does one Limit Break need?',
+        answer:
+          'Prepare two matching Divine 2 copies at 32 shards each, so the pair represents 64 Divinity Shards before the merge.',
+      },
+      {
+        question: 'What are the Anime Dungeons Update 3.5 codes?',
+        answer:
+          'INFINITY and UPDATE3.5 are the two newest source-checked strings. Each is reported to give 500 Gems, 15 Trait Rerolls, and 3 Wheel Spins.',
+      },
+      {
+        question: 'Should I farm Raid 1 or Raid 2 for Divinity Shards?',
+        answer:
+          'Raid 2 has the higher reported rate at 40% versus 25% in Raid 1, but Raid 1 can be better per hour if your Raid 2 clears are slow or inconsistent.',
+      },
+    ],
+    relatedRoutes: [
+      '/updates',
+      '/codes',
+      '/dungeons',
+      '/heroes',
+      '/guides/update-3-sao-raid-guide',
+    ],
+  },
 ];
 
 export function getGuide(slug: string) {
