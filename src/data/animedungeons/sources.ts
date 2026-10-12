@@ -1,6 +1,6 @@
 import type { DataSource, VideoSource } from './types';
 
-export const checkedAt = '2026-09-15';
+export const checkedAt = '2026-10-12';
 
 export const officialGameFacts = {
   name: 'Anime Dungeons',
@@ -16,8 +16,8 @@ export const officialGameFacts = {
   oldPlaceId: 8862620807,
   oldUniverseId: 3353228800,
   createdAt: '2025-09-15',
-  currentTitle: '[UPD 3.5✨] Anime Dungeons',
-  updatedAt: '2026-09-11T19:06:30.059Z',
+  currentTitle: '[INFINITY] Anime Dungeons',
+  updatedAt: '2026-10-11',
   checkedAt,
   genre: ['RPG', 'Action RPG', 'Dungeon Crawler', 'Anime'],
   description:
@@ -184,6 +184,15 @@ export const nerdsChalkCodesSource: DataSource = {
   note: 'September 12 cross-check for INFINITY, UPDATE3.5, SAO, UPDATE3, and their reported reward bundles.',
 };
 
+export const octoberCodesSource: DataSource = {
+  type: 'guide_site',
+  label: 'TheTechBasket October Anime Dungeons codes',
+  url: 'https://www.thetechbasket.com/anime-dungeons-codes/',
+  checkedAt,
+  confidence: 'medium',
+  note: 'October current-list check for THESTRONGEST and BOSSRUSH2. Rewards remain live-popup values.',
+};
+
 export const updateThreeFiveGuideSource: DataSource = {
   type: 'guide_site',
   label: 'AllThings.How Update 3.5 progression guide',
@@ -248,6 +257,7 @@ export const sourceCatalog = [
   raidRouteSource,
   updateThreeRaidSource,
   nerdsChalkCodesSource,
+  octoberCodesSource,
   updateThreeFiveGuideSource,
   bloxInformerSource,
   allThingsCodesSource,
